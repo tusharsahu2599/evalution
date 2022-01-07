@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #container {
+        display: grid;
+        grid-template-columns: repeat(3, 20%);
+        justify-content: center;
+        grid-gap: 30px;
+      }
+      .cartdiv {
+        border: 2px solid grey;
+      }
+      img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="checkout.html"> <h1 class="checkout">checkout</h1></a>
+    <h1 class="total">Cart total Amount : 0 </h1>
+    <a href="menu.html">Go back to menu</a>
+    <div id="container"></div>
+  </body>
+</html>
+<script src="cart.js"></script>
